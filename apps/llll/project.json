@@ -16,7 +16,14 @@
         "tsConfig": "apps/llll/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": ["apps/llll/src/favicon.ico", "apps/llll/src/assets"],
-        "styles": ["apps/llll/src/styles.scss"],
+
+        "styles": [
+          "apps/llll/src/styles.scss",
+          "node_modules/primeng/resources/themes/saga-blue/theme.css",
+          "node_modules/primeng/resources/primeng.min.css",
+          "node_modules/primeflex/primeflex.css",
+          "node_modules/primeicons/primeicons.css"
+        ],
         "scripts": []
       },
       "configurations": {
